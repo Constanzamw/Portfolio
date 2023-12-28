@@ -25,3 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.toastSuccess{
+  background-color: rgb(19, 19, 20)!important;
+  color: rgb(186, 249, 167);
+  font-size: 19px!important;
+  border-radius: 9px!important;
+  font-family: 'Inter', sans-serif!important;
+  font-family: 'Kenia', sans-serif!important;
+  font-family: 'Montserrat', sans-serif!important;
+  font-family: 'Russo One', sans-serif!important;
+  box-shadow: 0 0 0 3px rgba(115, 250, 103, 0.2)!important;
+}
