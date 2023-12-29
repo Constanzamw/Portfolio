@@ -5,6 +5,8 @@ import { useForm, ValidationError } from '@formspree/react';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useState } from "react";
+import Nav from "@/components/nav/Nav";
+import 'tailwindcss/tailwind.css';
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("xpzvzajl");
@@ -24,8 +26,11 @@ function ContactForm() {
       
   }
   return (
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="email">
+ <>
+ <Nav/>
+    <div className="flex items-center justify-center h-screen ">
+      <form onSubmit={handleSubmit} className="w-full max-w-md">
+        <label htmlFor="name" className="block text-sm font-medium text-pink-600">
         Name
       </label>
       <input
@@ -33,14 +38,14 @@ function ContactForm() {
         type="name" 
         name="name"
         placeholder='Your name'
-        className='text-black'
+        className='mt-1 p-2 border rounded-md w-full text-gray-700 mb-[15px]'
       />
       <ValidationError 
         prefix="Name" 
         field="name"
         errors={state.errors}
       />
-      <label htmlFor="email">
+      <label htmlFor="email" className="block text-sm font-medium text-pink-600">
         Email
       </label>
       <input
@@ -48,14 +53,14 @@ function ContactForm() {
         type="email" 
         name="email"
         placeholder='Your email address'
-        className='text-black'
+        className='mt-1 p-2 border rounded-md w-full text-gray-700 mb-[15px]'
       />
       <ValidationError 
         prefix="Email" 
         field="email"
         errors={state.errors}
       />
-      <label htmlFor="email">
+      <label htmlFor="subjact" className="block text-sm font-medium text-pink-600">
         Subject
       </label>
       <input
@@ -63,30 +68,39 @@ function ContactForm() {
         type="text" 
         name="subject"
         placeholder='Contact reason'
-        className='text-black'
+        className='mt-1 p-2 border rounded-md w-full text-gray-700 mb-[15px]'
       />
       <ValidationError 
         prefix="subject" 
         field="subject"
         errors={state.errors}
       />
-       <label htmlFor="email">
+       <label htmlFor="message" className="block text-sm font-medium text-pink-600">
         Message:
       </label>
       <textarea
         id="message"
         name="message"
-        className='text-black'
+        className='mt-1 p-2 border rounded-md w-full text-gray-700 mb-[15px]'
       />
       <ValidationError 
         prefix="Message" 
         field="message"
         errors={state.errors}
       />
-      <button type="submit" disabled={state.submitting}>
-        Submit
-      </button>
+      <button
+  type="submit"
+  disabled={state.submitting}
+  className={`mt-4 p-2 rounded-md w-full ${
+    state.submitting ? 'bg-gray-400 text-gray-700 cursor-not-allowed' : 'bg-pink-500 text-white'
+  }`}
+>
+  {state.submitting ? 'Submitting...' : 'Submit'}
+</button>
     </form>
+    
+    </div>
+    </>
   );
 }
 function App() {

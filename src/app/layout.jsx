@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import { ToastContainer } from "react-toastify";
 const inter = Inter({ subsets: ['latin'] })
+import 'tailwindcss/tailwind.css';
 
 export const metadata = {
   title: 'Create Next App',

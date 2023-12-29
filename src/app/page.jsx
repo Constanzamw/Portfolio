@@ -1,5 +1,5 @@
 "use client";
-
+import 'tailwindcss/tailwind.css';
 import React from "react";
 import Nav from "../components/nav/Nav"
 
