@@ -11,8 +11,8 @@ export default function About() {
         <h1 className="text-5xl font-rocksalt text-center mb-10">Skills</h1>
       </div>
       <div>
-        <h2 className="text-md ml-10 mb-[25px] text-artistfont">Programming Skills</h2>
-        <div className="flex flex-wrap">
+        <h2 className="text-2xl ml-10 mb-[50px] text-artistfont xl:border-b-[2px] xl:w-[12%] ">Programming Skills</h2>
+        <div className="flex flex-wrap mb-[50px]">
         <div className="w-1/2 sm:w-1/2 md:w-1/4 lg:w-1/5 px-2 mb-8">
             <img
               src="/physics.png"
@@ -96,20 +96,23 @@ export default function About() {
         </div>
       </div>
       <div>
-      <h2 className="text-2xl ml-10 mb-[17px] text-artistfont">Soft Skills</h2>
-      <ul className="ml-[45px] list-disc ">
-      <li> Henry: Teaching Assistant</li>
+      <h2 className="text-2xl ml-10  text-artistfont mb-[50px] xl:border-b-[2px] xl:w-[6%]  ">Soft Skills</h2>
+      <ul className="ml-[100px] list-disc grid grid-cols-2 lg:grid-cols-5 mb-[50px] ">
       <li>Creative</li>
       <li>SCRUM</li>
       <li>Team player</li>
       <li>Adaptability</li>
       <li>Empathy</li>
       <li>Leadership</li>
+      <li>Time management</li>
+      <li>Willingness to learn</li>
+      <li>Communication</li>
+      <li> Henry: Teaching Assistant</li>
       </ul>
       </div>
       <div className="">
-  <h2 className="text-2xl ml-10 mb-[17px] mt-[25px] text-artistfont ">Languages</h2>
-  <div className="flex flex-wrap gap-4 ml-[25px] mr-[25px]">
+  <h2 className="text-2xl ml-10  mt-[25px] text-artistfont mb-[50px] xl:border-b-[2px] xl:w-[7%] ">Languages</h2>
+  <div className="flex flex-wrap gap-4 ml-[25px] mr-[25px] mb-[50px]">
     <div className="flex items-center">
       <img
         src="/spainFlag.png"
@@ -124,7 +127,9 @@ export default function About() {
         alt="uk"
         className="w-[50px] object-cover rounded-lg mr-[5px]"
       />
-      <p>English (advanced) - </p> <a className="hover:bg-pink-600 border border-sm cursor-pointer p-1" href="https://www.efset.org/cert/sKtvfJ" target="_blank" rel="noopener noreferrer">
+      <p className="mr-[30px]">English (advanced) </p> 
+       <p className="mr-[30px]"> Go to {"-->"}</p>
+      <a className="hover:bg-pink-600 border border-sm cursor-pointer p-1" href="https://www.efset.org/cert/sKtvfJ" target="_blank" rel="noopener noreferrer">
     EF SET Certificate
 </a>
     </div>

@@ -18,7 +18,7 @@ export default function Nav() {
         <div className="text-center sm:flex sm:justify-center">
           <li>
             <Link href="/">
-              <span className="font-rocksalt text-2xl ">
+              <span className="font-rocksalt text-4xl hover:text-pink-600 hover:border-pink-600 ">
                 Constanza Weiner
            
               </span>
@@ -28,28 +28,28 @@ export default function Nav() {
         <div className="flex items-center gap-x-8">
           <li>
             <Link href="/education">
-              <span className="hover:text-primary hover:border-primary pb-1 font-newrocker text-[19px] border-b-[2px] border-gray-200">
+              <span className="hover:text-pink-600 hover:border-pink-600 pb-1 font-newrocker text-[19px] border-b-[2px] border-gray-200">
                 Education
               </span>
             </Link>
           </li>
           <li>
             <Link href="/experience">
-              <span className=" hover:text-primary cursor-pointer hover:border-primary pb-1 font-newrocker text-[19px] border-b-[2px]  border-gray-200">
+              <span className=" hover:text-pink-600 cursor-pointer hover:border-pink-600 pb-1 font-newrocker text-[19px] border-b-[2px]  border-gray-200">
                 Experience
               </span>
             </Link>
           </li>
           <li>
             <Link href="/about">
-              <span className=" hover:text-primary cursor-pointer hover:border-primary pb-1 font-newrocker text-[19px] border-b-[2px]  border-gray-200">
+              <span className=" hover:text-pink-600 cursor-pointer hover:border-pink-600 pb-1 font-newrocker text-[19px] border-b-[2px]  border-gray-200">
                 About me
               </span>
             </Link>
           </li>
           <li>
             <Link href="/contact">
-              <span className=" hover:text-primary cursor-pointer hover:border-primary pb-1 font-newrocker text-[19px] border-b-[2px]  border-gray-200">
+              <span className=" hover:text-pink-600 cursor-pointer hover:border-pink-600 pb-1 font-newrocker text-[19px] border-b-[2px]  border-gray-200">
                 Contact me
               </span>
             </Link>

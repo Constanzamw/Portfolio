@@ -12,7 +12,8 @@ export default function Home() {
       <Nav />
       <div className="lg:flex lg:items-center">
         <div className="lg:w-1/2 lg:order-1 text-center">
-          <h1 className="text-artistfont text-5xl xl:text-8xl font-rocksalt mb-8  ">
+          {/* <h1 className="text-artistfont text-5xl xl:text-8xl font-rocksalt mb-8  "> */}
+          <h1 className=' text-5xl xl:text-8xl font-bold animated-gradient font-rocksalt mb-8'>
             Welcome to my portfolio!
           </h1>
           <h3 className="lg:mx-4">

@@ -37,3 +37,22 @@ body {
   font-family: 'Russo One', sans-serif!important;
   box-shadow: 0 0 0 3px rgba(115, 250, 103, 0.2)!important;
 }
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: -100% 0%;
+  }
+}
+
+.animated-gradient {
+  background: linear-gradient(to right, #73027e, #bd0580 , #d85fb0 ,#5c023e);
+  -webkit-background-clip: text;
+  background-clip: text; /* Propiedad estándar para compatibilidad */
+  color: transparent;
+  background-size: 200% 100%;
+  animation: gradientAnimation 8s linear infinite;
+}
+
