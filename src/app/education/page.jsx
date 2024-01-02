@@ -118,13 +118,13 @@ export default function About() {
       />
       <p>Spanish (native)</p>
     </div>
-    <div className="flex items-center ">
+    <div className="flex items-center mb-[10px]">
       <img
         src="/ukFlag.png"
         alt="uk"
         className="w-[50px] object-cover rounded-lg mr-[5px]"
       />
-      <p>English (advanced) - </p> <a className="text-blue-800" href="https://www.efset.org/cert/sKtvfJ" target="_blank" rel="noopener noreferrer">
+      <p>English (advanced) - </p> <a className="hover:bg-pink-600 border border-sm cursor-pointer p-1" href="https://www.efset.org/cert/sKtvfJ" target="_blank" rel="noopener noreferrer">
     EF SET Certificate
 </a>
     </div>
