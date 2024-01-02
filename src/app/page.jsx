@@ -41,7 +41,7 @@ export default function Home() {
               <img
                 src="/hi.png"
                 alt="yo"
-                className=" w-[410px] object-cover rounded-lg"
+                className=" w-[410px] object-contain rounded-lg"
               />
             </div>
           </div>
