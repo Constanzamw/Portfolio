@@ -11,9 +11,9 @@ export default function About() {
         <h1 className="text-5xl font-rocksalt text-center mb-10">Skills</h1>
       </div>
       <div>
-        <h2 className="text-md ml-10 mb-[25px]">Programming Skills</h2>
+        <h2 className="text-md ml-10 mb-[25px] text-artistfont">Programming Skills</h2>
         <div className="flex flex-wrap">
-          <div className="w-full md:w-1/2 lg:w-1/5 px-2 mb-8">
+        <div className="w-1/2 sm:w-1/2 md:w-1/4 lg:w-1/5 px-2 mb-8">
             <img
               src="/physics.png"
               alt="React"
@@ -21,7 +21,7 @@ export default function About() {
             />
             <p className="text-center">React</p>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/5 px-2 mb-8">
+          <div className="w-1/2 sm:w-1/2 md:w-1/4 lg:w-1/5 px-2 mb-8">
             <img
               src="/redux.png"
               alt="Redux"
@@ -29,7 +29,7 @@ export default function About() {
             />
             <p className="text-center">Redux</p>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/5 px-2 mb-8">
+          <div className="w-1/2 sm:w-1/2 md:w-1/4 lg:w-1/5 px-2 mb-8">
             <img
               src="/next.png"
               alt="nextjs"
@@ -37,7 +37,7 @@ export default function About() {
             />
             <p className="text-center">Next.js</p>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/5 px-2 mb-8">
+          <div className="w-1/2 sm:w-1/2 md:w-1/4 lg:w-1/5 px-2 mb-8">
             <img
               src="/css.png"
               alt="CSS"
@@ -45,7 +45,7 @@ export default function About() {
             />
             <p className="text-center">CSS</p>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/5 px-2 mb-8">
+          <div className="w-1/2 sm:w-1/2 md:w-1/4 lg:w-1/5 px-2 mb-8">
             <img
               src="/html.png"
               alt="HTML"
@@ -53,7 +53,7 @@ export default function About() {
             />
             <p className="text-center">HTML</p>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/5 px-2 mb-8">
+          <div className="w-1/2 sm:w-1/2 md:w-1/4 lg:w-1/5 px-2 mb-8">
             <img
               src="/js.png"
               alt="JS"
@@ -61,7 +61,7 @@ export default function About() {
             />
             <p className="text-center">JavaScript</p>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/5 px-2 mb-8">
+          <div className="w-1/2 sm:w-1/2 md:w-1/4 lg:w-1/5 px-2 mb-8">
             <img
               src="/nodejs.png"
               alt="nodejs"
@@ -69,7 +69,7 @@ export default function About() {
             />
             <p className="text-center">Node</p>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/5 px-2 mb-8">
+          <div className="w-1/2 sm:w-1/2 md:w-1/4 lg:w-1/5 px-2 mb-8">
             <img
               src="/postgre.png"
               alt="postgre"
@@ -77,7 +77,7 @@ export default function About() {
             />
             <p className="text-center">Postgre</p>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/5 px-2 mb-8">
+          <div className="w-1/2 sm:w-1/2 md:w-1/4 lg:w-1/5 px-2 mb-8">
             <img
               src="/mongodb.png"
               alt="postgre"
@@ -85,7 +85,7 @@ export default function About() {
             />
             <p className="text-center">MongoDb</p>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/5 px-2 mb-8">
+          <div className="w-1/2 sm:w-1/2 md:w-1/4 lg:w-1/5 px-2 mb-8">
             <img
               src="/github.png"
               alt="github"
@@ -96,8 +96,8 @@ export default function About() {
         </div>
       </div>
       <div>
-      <h2 className="text-md ml-10 mb-[17px]">Soft Skills</h2>
-      <ul>
+      <h2 className="text-2xl ml-10 mb-[17px] text-artistfont">Soft Skills</h2>
+      <ul className="ml-[45px] list-disc ">
       <li> Henry: Teaching Assistant</li>
       <li>Creative</li>
       <li>SCRUM</li>
@@ -107,9 +107,9 @@ export default function About() {
       <li>Leadership</li>
       </ul>
       </div>
-      <div>
-  <h2 className="text-md ml-10 mb-[17px] mt-[25px]">Languages</h2>
-  <div className="flex gap-4">
+      <div className="">
+  <h2 className="text-2xl ml-10 mb-[17px] mt-[25px] text-artistfont ">Languages</h2>
+  <div className="flex flex-wrap gap-4 ml-[25px] mr-[25px]">
     <div className="flex items-center">
       <img
         src="/spainFlag.png"
@@ -118,11 +118,11 @@ export default function About() {
       />
       <p>Spanish (native)</p>
     </div>
-    <div className="flex items-center">
+    <div className="flex items-center ">
       <img
         src="/ukFlag.png"
         alt="uk"
-        className="w-[50px] object-cover rounded-lg mr-2"
+        className="w-[50px] object-cover rounded-lg mr-[5px]"
       />
       <p>English (advanced) - </p> <a className="text-blue-800" href="https://www.efset.org/cert/sKtvfJ" target="_blank" rel="noopener noreferrer">
     EF SET Certificate
