@@ -9,7 +9,7 @@ export default function About() {
 
       <div className=" mx-4 my-8 text-artistfont md:mx-auto md:max-w-2xl md:px-4">
         <h1 className="text-5xl font-rocksalt text-center mb-10 ">
-          Sobre Connect<span className="text-primary">Ink</span>
+          About me
         </h1>
         {/* <p className="text-lg mb-4  ">
           <p className="text-lg mb-4 text-artistfont text-justify">
