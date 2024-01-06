@@ -41,14 +41,14 @@ export default function Nav() {
           <li>
             <Link href="/about">
               <span className="hover:text-pink-600 cursor-pointer hover:border-pink-600 pb-1 font-newrocker text-[14px] md:text-[19px] border-b-[2px] border border-1px px-2 md:px-4 py-1 md:py-2 rounded-md border-gray-200">
-                About me
+                About
               </span>
             </Link>
           </li>
           <li>
             <Link href="/contact">
               <span className="hover:text-pink-600 cursor-pointer hover:border-pink-600 pb-1 font-newrocker text-[14px] md:text-[19px] border-b-[2px] border border-1px px-2 md:px-4 py-1 md:py-2 rounded-md border-gray-200">
-                Contact me
+                Contact
               </span>
             </Link>
           </li>
