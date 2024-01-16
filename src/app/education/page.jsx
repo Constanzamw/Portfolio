@@ -105,9 +105,9 @@ export default function About() {
       <li>Empathy</li>
       <li>Leadership</li>
       <li>Time management</li>
-      <li>Willingness to learn</li>
+      <li>Grace Under Pressure</li>
       <li>Communication</li>
-      <li> Henry: Teaching Assistant</li>
+      <li>Stakeholder Management</li>
       </ul>
       </div>
       <div className="">

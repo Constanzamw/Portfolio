@@ -34,6 +34,18 @@ export default function Nav() {
           </li>
         </div>
         <div className="flex items-center gap-x-4 md:gap-x-8">
+        <li>
+            <Link href="/experience">
+              <span
+                className={`cursor-pointer pb-1 font-newrocker text-[14px] md:text-[19px] border-b-[2px] border border-1px px-2 md:px-4 py-1 md:py-2 rounded-md border-gray-200 ${
+                  activeLink === "/experience" ? "text-pink-600 border-pink-600" : "hover:text-pink-600 hover:border-pink-600"
+                }`}
+                onClick={() => handleLinkClick("/experience")}
+              >
+                Experience
+              </span>
+            </Link>
+          </li>
           <li>
             <Link href="/education">
               <span
@@ -46,18 +58,7 @@ export default function Nav() {
               </span>
             </Link>
           </li>
-          <li>
-            <Link href="/experience">
-              <span
-                className={`cursor-pointer pb-1 font-newrocker text-[14px] md:text-[19px] border-b-[2px] border border-1px px-2 md:px-4 py-1 md:py-2 rounded-md border-gray-200 ${
-                  activeLink === "/experience" ? "text-pink-600 border-pink-600" : "hover:text-pink-600 hover:border-pink-600"
-                }`}
-                onClick={() => handleLinkClick("/experience")}
-              >
-                Experience
-              </span>
-            </Link>
-          </li>
+         
           <li>
             <Link href="/about">
               <span
