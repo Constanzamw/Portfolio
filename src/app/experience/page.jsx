@@ -1,6 +1,5 @@
 import Link from "next/link";
-import Nav from "../../components/nav/Nav"
-
+import Nav from "../../components/nav/Nav";
 
 export default function Experience() {
   return (
@@ -9,8 +8,81 @@ export default function Experience() {
       <div className="max-w-screen-xl mx-auto">
         <div className="text-center">
           <h1 className="text-3xl mb-6 text-artistfont"> Projects</h1>
+        </div>
+        <div className="text-center">
+          <h2 className="text-xl">Videos App</h2>
+          <p className="text-xs mb-2">Dec 2023 - Jan 2024</p>
+        </div>
+        <div className="xl:w-1/2 lg:order-2 mx-auto mb-8">
+          <img
+            src="/videos.jpg"
+            alt="Videos App"
+            className="w-full ml-[20px] mr-[20px] rounded-xl "
+          />
+        </div>
+        <p className="text-artistfont ml-[20px] sm:mr-4 text-sm xl:text-lg font-rocksalt mb-8 ">
+          This small video app was a personal project using MERN technologies.
+          <br />
+          The application allows you to upload videos with YouTube links, edit
+          the posts, and delete them.
+        </p>
+        <div className="flex flex-wrap lg:flex-nowrap justify-start mb-8 ml-[20px]">
+          <div className="w-1/2 sm:w-1/2 lg:w-1/9 xl:w-1/9 px-2 mb-8">
+            <img
+              src="/mongodb.png"
+              alt="mongodb"
+              className="w-[50px] object-cover rounded-lg mx-auto mb-4"
+            />
+            <p className="text-center">MongoDB</p>
+          </div>
+          <div className="w-1/2 sm:w-1/2 lg:w-1/9 xl:w-1/9 px-2 mb-8">
+            <img
+              src="/exp.png"
+              alt="express"
+              className="w-[50px] object-cover rounded-lg mx-auto mb-4"
+            />
+            <p className="text-center">Express</p>
+          </div>
+          <div className="w-1/2 sm:w-1/2 lg:w-1/9 xl:w-1/9 px-2 mb-8">
+            <img
+              src="/physics.png"
+              alt="react"
+              className="w-[50px] object-cover rounded-lg mx-auto mb-4"
+            />
+            <p className="text-center">React</p>
+          </div>
+          <div className="w-1/2 sm:w-1/2 lg:w-1/9 xl:w-1/9 px-2 mb-8">
+            <img
+              src="/mongodb.png"
+              alt="mongodb"
+              className="w-[50px] object-cover rounded-lg mx-auto mb-4"
+            />
+            <p className="text-center">NodeJs</p>
+          </div>
+        </div>
+        <p className="text-xl ml-[20px] mb-[8px]"> LINKS:</p>
+        <div className="flex mb-[10px]">
+          <a
+            href="https://github.com/Constanzamw/Videos"
+            target="_blank"
+            className="border border-sm ml-[20px] p-2 flex items-center hover:bg-pink-600"
+          >
+            <img src="github.png" alt="git" className="w-4 h-4 mr-2" />
+            Repository
+          </a>
+          <a
+            href="https://videosapp-eta.vercel.app/"
+            target="_blank"
+            className="border border-sm ml-[20px] p-2 flex items-center hover:bg-pink-600"
+          >
+            <img src="ww.png" alt="www" className="w-8 h-4 " />
+            Web
+          </a>
+        </div>
+
+        <div className="text-center">
           <h2 className="text-xl">ConnectInk</h2>
-          <p className="text-xs mb-2">Nov 2023 - Dic 2023</p>
+          <p className="text-xs mb-2">Nov 2023 - Dec 2023</p>
         </div>
         <div className="xl:w-1/2 lg:order-2 mx-auto mb-8">
           <img
@@ -94,17 +166,24 @@ export default function Experience() {
         </div>
         <p className="text-xl ml-[20px] mb-[8px]"> LINKS:</p>
         <div className="flex mb-[10px]">
-          <a href="https://github.com/santicasalis/ConnectInk" target="_blank" className="border border-sm ml-[20px] p-2 flex items-center hover:bg-pink-600">
+          <a
+            href="https://github.com/santicasalis/ConnectInk"
+            target="_blank"
+            className="border border-sm ml-[20px] p-2 flex items-center hover:bg-pink-600"
+          >
             <img src="github.png" alt="git" className="w-4 h-4 mr-2" />
             Repository
           </a>
-          <a href="https://connectink.vercel.app/" target="_blank" className="border border-sm ml-[20px] p-2 flex items-center hover:bg-pink-600">
+          <a
+            href="https://connectink.vercel.app/"
+            target="_blank"
+            className="border border-sm ml-[20px] p-2 flex items-center hover:bg-pink-600"
+          >
             <img src="ww.png" alt="www" className="w-8 h-4 " />
             Web
           </a>
         </div>
         <div className="text-center">
-          
           <h2 className="text-xl">Pokemon</h2>
           <p className="text-xs mb-2">Oct 2023 - Nov 2023</p>
         </div>
@@ -118,12 +197,14 @@ export default function Experience() {
         <p className="text-artistfont ml-[20px] sm:mr-4 text-sm xl:text-lg font-rocksalt mb-8 ">
           Pokemon - Academic experience at Henry Bootcamp.
           <br />
-          Developed an application utilizing the PokeAPI (https://pokeapi.co) to provide updated information about Pokémon.
-          The platform stands out for its visually appealing rendering, advanced filters by features, and the unique ability to allow users to create their custom Pokémon, providing an interactive and immersive Pokémon world experience
+          Developed an application utilizing the PokeAPI (https://pokeapi.co) to
+          provide updated information about Pokémon. The platform stands out for
+          its visually appealing rendering, advanced filters by features, and
+          the unique ability to allow users to create their custom Pokémon,
+          providing an interactive and immersive Pokémon world experience
         </p>
         <div className="flex flex-wrap lg:flex-nowrap justify-start mb-8 ml-[20px]">
-                    
-        <div className="w-1/2 sm:w-1/2 lg:w-1/9 xl:w-1/9 px-2 mb-8">
+          <div className="w-1/2 sm:w-1/2 lg:w-1/9 xl:w-1/9 px-2 mb-8">
             <img
               src="/js.png"
               alt="JS"
@@ -179,16 +260,22 @@ export default function Experience() {
             />
             <p className="text-center">CSS</p>
           </div>
-          
-          
         </div>
         <p className="text-xl ml-[20px] mb-[8px]"> LINKS:</p>
         <div className="flex mb-[10px]">
-          <a href="https://github.com/Constanzamw/PI_Pokemon_CW" target="_blank" className="border border-sm ml-[20px] p-2 flex items-center hover:bg-pink-600">
+          <a
+            href="https://github.com/Constanzamw/PI_Pokemon_CW"
+            target="_blank"
+            className="border border-sm ml-[20px] p-2 flex items-center hover:bg-pink-600"
+          >
             <img src="github.png" alt="git" className="w-4 h-4 mr-2" />
             Repository
           </a>
-          <a href="https://pokefront.vercel.app/" target="_blank" className="border border-sm ml-[20px] p-2 flex items-center hover:bg-pink-600">
+          <a
+            href="https://pokefront.vercel.app/"
+            target="_blank"
+            className="border border-sm ml-[20px] p-2 flex items-center hover:bg-pink-600"
+          >
             <img src="ww.png" alt="www" className="w-8 h-4 " />
             Web
           </a>
