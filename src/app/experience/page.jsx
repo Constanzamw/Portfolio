@@ -53,8 +53,8 @@ export default function Experience() {
           </div>
           <div className="w-1/2 sm:w-1/2 lg:w-1/9 xl:w-1/9 px-2 mb-8">
             <img
-              src="/mongodb.png"
-              alt="mongodb"
+              src="/nodejs.png"
+              alt="nodejs"
               className="w-[50px] object-cover rounded-lg mx-auto mb-4"
             />
             <p className="text-center">NodeJs</p>
