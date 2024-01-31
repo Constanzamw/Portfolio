@@ -18,7 +18,7 @@ export default function Experience() {
           <img
             src="/wapp.png"
             alt="Weather App"
-            className="w-full ml-[20px] mr-[20px] rounded-xl "
+            className="w-1/8   lg:w-full  rounded-xl  "
           />
         </div>
         <p className="text-artistfont ml-[20px] sm:mr-4 text-sm xl:text-lg font-rocksalt mb-8 ">
