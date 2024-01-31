@@ -59,7 +59,7 @@ export default function Experience() {
           </div>
           
         </div>
-        <p className="text-xl ml-[20px] mb-[8px]"> LINKS:</p>
+        <p className="text-xl ml-[20px] mb-[18px]"> LINKS:</p>
         <div className="flex mb-[10px]">
           <a
             href="https://github.com/Constanzamw/weather-app"
@@ -80,7 +80,7 @@ export default function Experience() {
         </div>
 
         {/* FIN */}
-        <div className="text-center">
+        <div className="text-center mt-[15%]">
           <h2 className="text-xl">Videos App</h2>
           <p className="text-xs mb-2">Dec 2023 - Jan 2024</p>
         </div>
@@ -151,7 +151,7 @@ export default function Experience() {
           </a>
         </div>
 
-        <div className="text-center">
+        <div className="text-center mt-[15%]">
           <h2 className="text-xl">ConnectInk</h2>
           <p className="text-xs mb-2">Nov 2023 - Dec 2023</p>
         </div>
@@ -254,7 +254,7 @@ export default function Experience() {
             Web
           </a>
         </div>
-        <div className="text-center">
+        <div className="text-center  mt-[15%]">
           <h2 className="text-xl">Pokemon</h2>
           <p className="text-xs mb-2">Oct 2023 - Nov 2023</p>
         </div>
