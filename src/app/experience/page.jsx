@@ -49,6 +49,14 @@ export default function Experience() {
             />
             <p className="text-center">JavaScript</p>
           </div>
+          <div className="w-1/2 sm:w-1/2 lg:w-1/9 xl:w-1/9 px-2 mb-8">
+            <img
+              src="/html.png"
+              alt="html"
+              className="w-[50px] object-cover rounded-lg mx-auto mb-4"
+            />
+            <p className="text-center">HTML</p>
+          </div>
           
         </div>
         <p className="text-xl ml-[20px] mb-[8px]"> LINKS:</p>
