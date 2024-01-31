@@ -9,6 +9,69 @@ export default function Experience() {
         <div className="text-center">
           <h1 className="text-3xl mb-6 text-artistfont"> Projects</h1>
         </div>
+        {/* INICIO */}
+        <div className="text-center">
+          <h2 className="text-xl">Weather App</h2>
+          <p className="text-xs mb-2">Jan 2024</p>
+        </div>
+        <div className="xl:w-1/2 lg:order-2 mx-auto mb-8">
+          <img
+            src="/wapp.png"
+            alt="Weather App"
+            className="w-full ml-[20px] mr-[20px] rounded-xl "
+          />
+        </div>
+        <p className="text-artistfont ml-[20px] sm:mr-4 text-sm xl:text-lg font-rocksalt mb-8 ">
+        Explore real-time global weather information using this React and Material UI-powered application. Gain access to precise data instantly, navigating through a user-friendly interface. Feel confident in planning your activities while staying well-informed, regardless of your location in the world! 🌎
+        </p>
+        <div className="flex flex-wrap lg:flex-nowrap justify-start mb-8 ml-[20px]">
+          <div className="w-1/2 sm:w-1/2 lg:w-1/9 xl:w-1/9 px-2 mb-8">
+            <img
+              src="/physics.png"
+              alt="react"
+              className="w-[50px] object-cover rounded-lg mx-auto mb-4"
+            />
+            <p className="text-center">React</p>
+          </div>
+          <div className="w-1/2 sm:w-1/2 lg:w-1/9 xl:w-1/9 px-2 mb-8">
+            <img
+              src="/MUI.jpg"
+              alt="mui"
+              className="w-[50px] object-cover rounded-lg mx-auto mb-4"
+            />
+            <p className="text-center">Material UI</p>
+          </div>
+          <div className="w-1/2 sm:w-1/2 lg:w-1/9 xl:w-1/9 px-2 mb-8">
+            <img
+              src="/js.png"
+              alt="js"
+              className="w-[50px] object-cover rounded-lg mx-auto mb-4"
+            />
+            <p className="text-center">JavaScript</p>
+          </div>
+          
+        </div>
+        <p className="text-xl ml-[20px] mb-[8px]"> LINKS:</p>
+        <div className="flex mb-[10px]">
+          <a
+            href="https://github.com/Constanzamw/weather-app"
+            target="_blank"
+            className="border border-sm ml-[20px] p-2 flex items-center hover:bg-pink-600"
+          >
+            <img src="github.png" alt="git" className="w-4 h-4 mr-2" />
+            Repository
+          </a>
+          <a
+            href="https://weather-app-one-steel-40.vercel.app/"
+            target="_blank"
+            className="border border-sm ml-[20px] p-2 flex items-center hover:bg-pink-600"
+          >
+            <img src="ww.png" alt="www" className="w-8 h-4 " />
+            Web
+          </a>
+        </div>
+
+        {/* FIN */}
         <div className="text-center">
           <h2 className="text-xl">Videos App</h2>
           <p className="text-xs mb-2">Dec 2023 - Jan 2024</p>
