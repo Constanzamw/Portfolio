@@ -56,7 +56,7 @@ export default function About() {
                 rel="noopener noreferrer"
                 className="text-[#FDECDA] hover:text-pink-600 border border-1px  px-4 py-2 rounded-md "
               >
-                Resume/CV
+                Resume
               </a>
             </li>
           </ul>
