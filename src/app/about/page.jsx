@@ -49,9 +49,21 @@ export default function About() {
                 Github
               </a>
             </li>
+            <li className="mr-8 mb-6 text-xl">
+              <a
+                href="https://drive.google.com/file/d/1jiRnqsZhiyZ9LvOn6qEw41hwVRF_uJnw/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#FDECDA] hover:text-pink-600 border border-1px  px-4 py-2 rounded-md "
+              >
+                Resume
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </div>
   );
 }
+
+//
