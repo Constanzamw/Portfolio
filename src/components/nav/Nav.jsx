@@ -35,14 +35,14 @@ export default function Nav() {
         </div>
         <div className="flex items-center gap-x-4 md:gap-x-8">
         <li>
-            <Link href="/experience">
+            <Link href="/proyects">
               <span
                 className={`cursor-pointer pb-1 font-newrocker text-[14px] md:text-[19px] border-b-[2px] border border-1px px-2 md:px-4 py-1 md:py-2 rounded-md border-gray-200 ${
-                  activeLink === "/experience" ? "text-pink-600 border-pink-600" : "hover:text-pink-600 hover:border-pink-600"
+                  activeLink === "/proyects" ? "text-pink-600 border-pink-600" : "hover:text-pink-600 hover:border-pink-600"
                 }`}
-                onClick={() => handleLinkClick("/experience")}
+                onClick={() => handleLinkClick("/proyects")}
               >
-                Experience
+                Proyects
               </span>
             </Link>
           </li>
