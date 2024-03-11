@@ -34,9 +34,10 @@ export default function Home() {
         <div className="grid grid-cols-4 gap-8">
             {books.map(book => (
                 <div key={book._id} className="border border-gray-300 rounded p-4">
+                  <Link href={`/book/${book._id}`}>
                     <h3 className="text-md font-semibold mb-2">{book.title}</h3>
                     <p className="text-sm">Autor: {book.author}</p>
-                 
+                    </Link>
                 </div>
             ))}
         </div>
