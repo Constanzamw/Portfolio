@@ -79,7 +79,7 @@ export default function Nav() {
                 }`}
                 onClick={() => handleLinkClick("/contact")}
               >
-                Contact
+                Contact me!
               </span>
             </Link>
           </li>
