@@ -28,7 +28,7 @@ export default function Nav() {
                 }`}
                 onClick={() => handleLinkClick("/")}
               >
-                Constanza Weiner
+                Middas - Libreria
               </span>
             </Link>
           </li>
